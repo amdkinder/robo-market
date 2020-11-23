@@ -1,0 +1,25 @@
+.rounded{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all .7s;
+    height: 90%;
+    overflow: hidden; }
+
+ .card--img{
+     transition: .6s ease;
+     overflow: hidden;
+ }
+ .card--img:hover{
+     transform: scale(1.2);
+ }
+ .div{
+     text-decoration: none;
+ }
+ .pagination .page-item{
+     cursor: pointer;
+ }
+ .pagination .page-item .page-link{
+     font-weight: bold;
+ }
+ .div-name{
+     text-decoration: none;
+ }

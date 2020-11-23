@@ -1,0 +1,6 @@
+.pagination{
+    outline: none;
+     }
+.pagination:active{
+    outline: none;
+}

@@ -1,0 +1,110 @@
+*{box-sizing: border-box;}
+.header-wrapper{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.header-part-parda{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.58);
+    z-index: 3;
+}
+.header-part-text{
+    position: absolute;
+    top: 50%; right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    height: auto;
+    z-index: 4;
+    color: #fff;
+    padding: 10px;
+    margin-left: 30px;
+    line-height: 2rem;
+    font-size:2rem;
+}
+.header-part-img{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+}
+.header-part-img img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.control-arrow{
+    background-color:rgba(0,0,0,0.4) !important;
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+    top:50% !important;
+    transform: translateY(-50%) !important;
+}
+.control-next{
+    right: -34px !important;
+    z-index: 10;
+}
+.control-next::before{
+    margin-right: 30px !important;
+}
+.control-prev{
+    left: -35px !important;
+}
+.control-prev::before{
+    margin-left: 30px !important;
+}
+.btns{
+    padding: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 5px 30px;
+    outline: none;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 40px;
+}
+.home1{
+    object-position: top center;
+}
+@media (max-width:1000px){
+    .header-part-text{
+        left: 0;
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 0 auto !important;
+    }
+}
+@media (max-width:650px){
+    .home1{
+       object-position: left;  
+    }
+   
+}
+@media (max-width:410px){
+    .header-part-text{
+        left: 0;
+        width: 50%;
+        font-size: 0.8rem;
+        margin: 0 auto !important;
+    }
+    .header-part-text h1{
+        width: auto;
+    }
+    .btns{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .btns a+a{
+        margin-top: 10px;
+    }
+}

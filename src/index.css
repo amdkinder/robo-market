@@ -1,0 +1,17 @@
+main{
+  min-height: 80vh;
+}
+.rating span{
+  font-size: 16.5px;
+  margin:0.1rem;
+}
+h3{
+  padding:1rem 0;
+}
+.rounded div{
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+}

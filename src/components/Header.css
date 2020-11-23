@@ -1,0 +1,26 @@
+.navbar-brand{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; }
+.navbar-brand span{
+    color: gold; }
+.icons-link{
+    font-size: 18px;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff!important; }
+#basic-navbar-nav{
+    display: flex;
+    align-items: center; }
+.icons-link .fas.fa-cart-plus{
+    position: relative; }
+.icons-link i:hover{
+    color: #f2f2f2; }
+
+@media screen and (max-width: 576px ){
+    #basic-navbar-nav{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
